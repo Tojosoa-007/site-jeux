@@ -1,6 +1,3 @@
-
-
-
 const reponse = await fetch("../data-base.json")
 const jeu = await reponse.json()
 
@@ -76,7 +73,7 @@ function updateListe(item) {
         let sortList = document.querySelector(".sortList")
         sortList.appendChild(itemList);
     }
-    // avisUtilisateur()
+
    
 }
 
