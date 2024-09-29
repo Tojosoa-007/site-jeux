@@ -17,7 +17,7 @@ function genereItems (tableau, type) {
         <h2>${tableau.nom}</h2>
         <h4>${tableau.description  ?? "aucune description en ce moment"}</h4>
         <span>${tableau.popular === 4 ? "⭐⭐⭐⭐" : "⭐⭐⭐⭐⭐"}</span>
-        <button data-id=${tableau.id}>Voir plus <i class='bx bx-chevrons-right'></i></button>
+        <button>Voir plus <i class='bx bx-chevrons-right'></i></button>
     `
 
     switch (type) {
@@ -35,7 +35,6 @@ function genereItems (tableau, type) {
             break;
     }
     
-    // avisUtilisateur()
 
     return rpg, action, aventure, strategie
 }
@@ -52,7 +51,6 @@ function updateListe(item) {
         const bouton = document.createElement("button")
         const title = document.createElement("h2")
 
-        bouton.dataset.id = item[i].id
         
         title.innerText = 
         imageList.src =item[i].image
