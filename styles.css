@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --p-color-blue : #0066ff;
+    --p-color-white : #ffffff;
+    --p-color-black : #000;
+    --p-color-yellow : #FFA800;
+    --p-color-gray : #D9D9D9;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--p-color-white);
+}
+
+
+header nav {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    float: right;
+    margin-right: 20%;
+    background-color: var(--p-color-yellow);
+    z-index: 9999;
+}
+
+span {
+    color: var(--p-color-yellow);
+}
+
+header nav a {
+    padding: 20px 40px;
+    text-decoration: none;
+    color: var(--p-color-black);
+    transition: all .2s ease-in-out;
+    z-index: 2;
+    &:hover {
+        opacity: .5;
+    }
+}
+
+header nav a:first-child {
+    border-right: 1px solid var(--p-color-black);
+}
+header nav a:last-child {
+    border-left: 1px solid var(--p-color-black);
+}
+
+header .logo {
+    float: left;
+    margin-left: 15%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--p-color-white);
+}
+
+.img {
+    width: 100%;
+    height: 100vh;
+    background: url(./assets/fonds/fond7.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: -1;    
+}
+
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: var(--p-color-white);
+    z-index: 1;
+    font-size: 3rem;
+}
+p {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: var(--p-color-white);
+    z-index: 1;
+    font-size: 1.3rem;
+    max-width: 700px;
+    letter-spacing: 1px;
+
+}
+
+.rect {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    opacity: .4;
+}
+
+button {
+    width: 230px;
+    height: 50px;
+    background: var(--p-color-yellow);
+    font-size: 1rem;
+    padding-right: 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: "montserrat";
+    transition: all .2s ease-in-out;
+    position: relative;
+    i {
+        margin-left: 10px;
+        font-size: 1.5rem;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        top: 12px;
+    }
+    &:hover {
+        box-shadow: 0px 0px 10px #FFA800;
+    }
+}
+.btn {
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 35%;
+    display: flex;
+    gap: 20px;
+}
+
+/* ===========================================================================          fin header             ========================================================= */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.tousJeux {
+    margin: 50px 0px;
+    width: 100%;
+    border-bottom: 2px solid var(--p-color-black);
+    padding-block: 15px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    button {
+        margin-top: 10px;
+        padding-left: 50px;
+        width: 150px;
+        i {
+            left: 10px;
+            margin-top: 3px;   
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.rpg h3, .aventure h3, .action h3, .strategie h3 {
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: var(--p-color-blue);
+    text-align: center;
+    color: var(--p-color-white);
+}
+
+.liste-action, .liste-aventure, .liste-rpg, .liste-strategie {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-block: 50px;
+    div {
+        display: flex;
+        flex-direction: column;
+        h2 {
+            width: 85%;
+            padding: 10px;
+            text-align: center;
+            background-color: var(--p-color-black);
+            color: var(--p-color-white);
+        }
+
+        h4 {
+            margin-block: 10px;
+            width: 85%;
+            font-size: .8rem;
+        }
+        button {
+            margin-block: 10px;
+            color: var(--p-color-white);
+            width: 150px;
+            height: 40px;
+            font-size: .9rem;
+            i {
+                position: absolute;
+                top: 9px;
+            }
+        }
+    }
+}
+
+
+.sortList, .liste-jeux-filter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    article {
+        display: flex;
+        flex-direction: column;
+        margin-block: 30px;
+        h2 {
+            width: 85%;
+            padding: 10px;
+            text-align: center;
+            background-color: var(--p-color-black);
+            color: var(--p-color-white);
+        }
+
+        h4 {
+            margin-block: 10px;
+            width: 85%;
+            font-size: .8rem;
+        }
+        button {
+            margin-block: 10px;
+            color: var(--p-color-white);
+            width: 150px;
+            height: 40px;
+            font-size: .9rem;
+            i {
+                position: absolute;
+                top: 9px;
+            }
+        }
+
+    }
+}
+
+#filter {
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid var(--p-color-black);
+    font-weight: 800;
+    font-family: "montserrat";
+    text-align: center;
+    option {
+        background: var(--p-color-yellow);
+        color: var(--p-color-white);
+    }
+}
+
+.sortList .title {
+    margin: 50px 0px;
+    width: 100%;
+    border-bottom: 2px solid var(--p-color-black);
+    padding-block: 15px;
+    font-size: 1.3rem;
+}
+
+
+.affichageRange {
+    width: 200px;
+    height: 50px;
+    background-color: var(--p-color-gray);
+    margin-block: 20px;    
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+input[type="range"] {
+    -webkit-appearance: none; /* Chrome/Safari */
+    appearance: none; /* Firefox */
+    width: 20%; /* Prend toute la largeur du conteneur */
+    height:25px; /* Épaisseur de la piste */
+    background: var(--p-color-gray); /* Couleur de la piste */
+    border-radius: 50px; /* Coins arrondis de la piste */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Chrome/Safari */
+    appearance: none; /* Firefox */
+    width: 25px; /* Largeur du bouton */
+    height: 25px; /* Hauteur du bouton */
+    background: var(--p-color-yellow); /* Couleur du bouton */
+    border: 2px solid var(--p-color-black); /* Bordure blanche */
+    border-radius: 50%; /* Arrondir le bouton */
+    cursor: pointer; /* Curseur sur hover */
+}
+
+#search {
+    padding: 10px;
+    width: 300px;
+}
+
+.tous-filter-bar {
+    display: flex;
+    gap: 30px;
+}
+
+.sort, .filter, .search-bar, .options {
+    margin-block: 30px;
+}
+
+.search-bar {
+    display: flex;
+    input {
+        border-radius: 10px;
+        border: 1px solid var(--p-color-black);
+        color: var(--p-color-black);
+        font-size: 1rem;
+    }
+    button {
+        margin-left: 10px;
+        width: 50px;
+    }
+}
+
+
+
+
+
+

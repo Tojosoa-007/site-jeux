@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criminel GAMER CG</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="scripts/script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="logo">GAME <span>Zone.</span></div>
+        <nav>
+            <a href="/">ACCUEIL</a>
+            <a href="/">A PROPOS</a>
+            <a href="/">CONTACT</a>
+        </nav>
+    </header>
+    <div class="img">
+        <div class="rect"></div>
+    </div>
+        <h1>Jouez, Explorez, Partagez</h1>
+        <p>Sur notre plateforme, nous mettons en avant les meilleurs jeux du moment à travers des démonstrations interactives. 
+            Que ce soit pour les consoles ou le PC, notre objectif est 
+            de vous aider à trouver le jeu qui vous correspond le mieux. Préparez-vous à vivre des expériences uniques, enrichies 
+            de conseils et de recommandations.
+        </p>
+        <div class="btn">
+            <button onclick=window.location.href = https://google.com>SE CONNECTER <i class='bx bx-log-in-circle'></i></button>
+            <button onclick=window.location.href = https://google.com>NOUS REJOINDRE ? <i class='bx bxs-edit-alt'></i></button>
+        </div>
+
+    <div class="container">
+        <div class="tous-filter-bar">
+            <button class="sort">Arranger <i class='bx bx-sort-a-z'></i></button>
+            <button class="filter">Filtrer <i class='bx bxs-filter-alt' ></i></button>
+            <select name="filter" id="filter" title="filter" class="options">
+                <option value="rpg">RPG</option>
+                <option value="aventure">AVENTURE</option>
+                <option value="action">ACTION</option>
+                <option value="strategie">STRATEGIE</option>
+            </select>
+            <!-- <input type="range" id="rangeElement" name="rangeElement" title="range"> -->
+            <div class="search-bar">
+                <input type="search" title="recherche" name="rechercher" id="search" placeholder="Entrer une mots clés" > 
+                <button><i class='bx bx-search-alt' ></i></button> 
+            </div>
+        </div>
+            <!-- <div class="affichageRange"></div> -->
+        <div class="liste"></div>
+        <section>
+            <div class="tousJeux">
+                <h2>Tous les jeux en ce moment</h2>
+            </div>
+            <div class="Liste-jeux">
+                <div class="rpg">
+                    <h3>RPG</h3>
+                    <div class="liste-rpg"></div>
+                </div>
+                <div class="aventure">
+                    <h3>AVENTURE</h3>
+                    <div class="liste-aventure"></div>
+                </div>
+                <div class="action">
+                    <h3>ACTION</h3>
+                    <div class="liste-action"></div>
+                </div>
+                <div class="strategie">
+                    <h3>STRATEGIE</h3>
+                    <div class="liste-strategie"></div>
+                </div>
+            </div>
+        </section>
+        <section class="sortList">
+            <div class="title">
+
+            </div>
+        </section>
+    </div>
+</body>
+</html>

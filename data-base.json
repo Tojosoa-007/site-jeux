@@ -1,0 +1,134 @@
+[
+    {
+        "id" : "1a",
+        "nom" : "Batman",
+        "image" : "./assets/jeux-actions/batman.png",
+        "description" : "Jeu Batman",
+        "popular" : 4,
+        "type" : "action"
+    },
+    {
+        "id" : "2a",
+        "nom" : "God of war",
+        "image" : "./assets/jeux-actions/godofwar.png",
+        "description" : "Jeu God of War",
+        "popular" : 5,
+        "type" : "action"
+    },
+    {
+        "id" : "3a",
+        "nom" : "Dead space",
+        "image" : "./assets/jeux-actions/deadspace.png",
+        "description" : "Jeu Dead space",
+        "popular" : 5,
+        "type" : "action" 
+    },
+    {
+        "id" : "4a",
+        "nom" : "Bayonetta",
+        "image" : "./assets/jeux-actions/bayonetta.png",
+        "popular" : 4,
+        "type" : "action"
+    },
+
+
+    {
+        "id" : "1b",
+        "nom" : "Day of the tentacle",
+        "image" : "./assets/jeux-Aventure/dayofthetentacle.png",
+        "description" : "Jeu day of the tentacle",
+        "popular" : 4,
+        "type" : "aventure"
+    },
+    {
+        "id" : "2b",
+        "nom" : "Ether one",
+        "image" : "./assets/jeux-Aventure/etherone.png",
+        "description" : "Jeu d'aventure ether one",
+        "popular" : 4,
+        "type" : "aventure"
+    },
+    {
+        "id" : "3b",
+        "nom" : "Red dead",
+        "image" : "./assets/jeux-Aventure/reddead.png",
+        "description" : "Jeu tendances en ce moment",
+        "popular" : 5,
+        "type" : "aventure"
+    },
+    {
+        "id" : "4b",
+        "nom" : "Bioshock",
+        "image" : "./assets/jeux-Aventure/bioshock.png",
+        "description" : "Jeu d'aventure",
+        "popular" : 4,
+        "type" : "aventure"
+    },
+
+    
+    {
+        "id" : "1s",
+        "nom" : "Clash of clan",
+        "image" : "./assets/jeux-de-stratégie/clashofclan.png",
+        "description" : "Jeu de stratégie très étonnant",
+        "popular" : 5,
+        "type" : "strategie"
+    },
+    {
+        "id" : "2s",
+        "nom" : "Spore",
+        "image" : "./assets/jeux-de-stratégie/Spore.png",
+        "description" : "Jeu de stratégie Spore",
+        "popular" : 4,
+        "type" : "strategie"
+    },
+    {
+        "id" : "3s",
+        "nom" : "Clash of royal",
+        "image" : "./assets/jeux-de-stratégie/clashofroyal.png",
+        "description" : "Jeu de stratégie",
+        "popular" : 5,
+        "type" : "strategie"
+    },
+    {
+        "id" : "4s",
+        "nom" : "Crusader king 2",
+        "image" : "./assets/jeux-de-stratégie/crusaderking2.png",
+        "description" : "Jeu de stratégie Crusader",
+        "popular" : 4,
+        "type" : "strategie"
+    },
+
+
+    {
+        "id" : "1r",
+        "nom" : "Cyber punk",
+        "image" : "./assets/jeux-RPG/cyberpunk.png",
+        "description" : "Jeu Cyber Punk",
+        "popular" : 5,
+        "type" : "rpg"
+    },
+    {
+        "id" : "2r",
+        "nom" : "Assassin's creed",
+        "image" : "./assets/jeux-RPG/assassin'screed.png",
+        "description" : "Jeu très populaire en ce moment",
+        "popular" : 5,
+        "type" : "rpg"
+    },
+    {
+        "id" : "3r",
+        "nom" : "Final fantasy",
+        "image" : "./assets/jeux-RPG/finalfantasy.png",
+        "popular" : 4,
+        "type" : "rpg"
+    },
+    {
+        "id" : "4r",
+        "nom" : "Super mario",
+        "image" : "./assets/jeux-RPG/supermario.png",
+        "description" : "Jeu de RPG",
+        "popular" : 5,
+        "type" : "rpg"
+    }
+]
